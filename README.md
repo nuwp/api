@@ -1,2 +1,1 @@
-# api
-Api endpoints
+# Api endpoints
