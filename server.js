@@ -9,4 +9,13 @@ app.get("/api/mock", (req, res) => {
   res.send(json);
 });
 
+app.post("/api/mock", (req, res) => {
+  if (json[0].first === "Leena") {
+    json[0].first = "Lee";
+  } else {
+    json[0].first = "Leena";
+  }
+  res.send(json);
+});
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
