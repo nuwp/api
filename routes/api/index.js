@@ -15,4 +15,4 @@ apiRoutes.post("/mock", (req, res) => {
   res.send(json);
 });
 
-module.exports = apiRoutes;
+exports.routes = apiRoutes;
